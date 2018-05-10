@@ -10,7 +10,8 @@ body {
 }
 
 .card-cap {
-  background: url('../img/cap.png') left 100px no-repeat #fdb813 !important;
+  background: url('../img/cap.png') -50px 0 no-repeat #f9b10b !important;
+  background-size: 480px !important;
   padding-left: 400px;
   padding-bottom: 50px;
   font-size: 1.2em;
@@ -24,4 +25,14 @@ body {
   padding: 5px 59px;
   display: inline-block;
   background: white;
+}
+
+.bg-phone {
+  height: 500px;
+  background: url('../img/phone.png') center;
+  background-size: cover;
+}
+
+.border-dark {
+  border-width: 2px !important;
 }
