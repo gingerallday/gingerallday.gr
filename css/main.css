@@ -9,9 +9,9 @@ body {
   max-width: 800px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   .card-cap {
-    background: url('../img/cap.png') -50px 0 no-repeat;
+    background: url('../img/cap.png') -50px -50px no-repeat;
     background-size: 480px !important;
   }
 }
