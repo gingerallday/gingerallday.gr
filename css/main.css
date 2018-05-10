@@ -9,10 +9,15 @@ body {
   max-width: 800px;
 }
 
+@media only screen and (min-width: 600px) {
+  .card-cap {
+    background: url('../img/cap.png') -50px 0 no-repeat;
+    background-size: 480px !important;
+  }
+}
+
 .card-cap {
-  background: url('../img/cap.png') -50px 0 no-repeat #f9b10b !important;
-  background-size: 480px !important;
-  padding-left: 400px;
+  background-color: #f9b10b !important;
   padding-bottom: 50px;
   font-size: 1.2em;
 }
@@ -28,9 +33,10 @@ body {
 }
 
 .bg-phone {
-  height: 500px;
-  background: url('../img/phone.png') center;
-  background-size: cover;
+  height: 400px;
+  background: url('../img/phone.png') center 100% no-repeat;
+  background-color: #f9b10b !important;
+  background-size: 100%;
 }
 
 .border-dark {
